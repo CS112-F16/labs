@@ -3,6 +3,14 @@ Lab 1
 
 ### Due Friday, August 26, 2016 - 5:00pm
 
+The goals of this assignment are the following:
+
+- Prepare your Java development environment
+- Familiarize you with the submission procedure
+- Implement your first Java program!
+
+
+##Requirements
 1. Activate your account on [Piazza](https://piazza.com/usfca/fall2016/cs112/home). 
 
 2. Download the [Java Development Platform](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Note that this is **not** just the Java Runtime Environment (JRE).
