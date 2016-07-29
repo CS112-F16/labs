@@ -47,9 +47,11 @@ The goals of this assignment are the following:
  
 ### Submission Requirements
 
-Follow the instructions in the [SVN Guide](https://github.com/CS112-F16/notes/blob/master/svn_guide.md) for submitting your solution by the deadline.
+1. For this assignment, you will submit two files: ```PrintDiamond.java``` and ```Initials.java```.
 
-For this assignment, you will submit two files: ```PrintDiamond.java``` and ```Initials.java```.
+2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-F16/notes/blob/master/style.md).
 
-Make sure you have submitted your work in an SVN directory: ```https://www.cs.usfca.edu/svn/<username>/cs112/lab1```
+3. Follow the instructions in the [SVN Guide](https://github.com/CS112-F16/notes/blob/master/svn_guide.md) for submitting your solution by the deadline.
+
+4. Make sure you have submitted your work in an SVN directory: ```https://www.cs.usfca.edu/svn/<username>/cs112/lab1```
 
