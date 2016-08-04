@@ -40,10 +40,25 @@ The goal of this assignment is to practice implementing programs that use the fo
       * Rock (1) beats scissors (3).
       * Paper (2) beats rock (1).
       * Scissors (3) beat paper (2).
+  - If the user chooses a number other than 1, 2, or 3, print an error and indicate the game is over.
   - The following will generate a random number in Java. See [Randomize.java](https://github.com/CS112-F16/code/blob/master/LabExamples/Randomize.java) for a complete example.
       * At the top of the class `import java.util.Random;`
       * In the main method, instantiate an object of type `Random`: `Random r = new Random();`
       * Invoke the `nextInt` method: `int computerChoice = r.nextInt(3) + 1;` Note that `nextInt` generates a number between 0 (inclusive) and the parameter (exclusive). In this case, it will generate a number from 0 to 2. By adding 1 we will get a number between 1 and 3.
+  - Sample output of your program should look as follows:
+  
+	```
+  	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
+	4
+	Invalid choice! Game over.
+	```
+	or
+	
+	```
+	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
+	1
+	Player chooses Rock. Computer chooses Scissors.
+ 	```
 4. **Part 4 (10 points)**: Create a class `CooksHelper` that will convert tablespoons to cups. The class will contain only a main method that will implement the following logic:
   - Prompt the user for the number of tablespoons.
   - Convert tablespoons to cups.
