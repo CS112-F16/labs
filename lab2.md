@@ -59,6 +59,13 @@ The goal of this assignment is to practice implementing programs that use the fo
 	1
 	Player chooses Rock. Computer chooses Scissors.
  	```
+ 	or
+ 	
+ 	```
+ 	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
+	1
+	It's a tie!
+	```
 4. **Part 4 (10 points)**: Create a class `CooksHelper` that will convert tablespoons to cups. The class will contain only a main method that will implement the following logic:
   - Prompt the user for the number of tablespoons.
   - Convert tablespoons to cups.
