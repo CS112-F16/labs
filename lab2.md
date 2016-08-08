@@ -26,13 +26,32 @@ The goal of this assignment is to practice implementing programs that use the fo
   - Create a class `PokemonDriver`. 
       * Instantiate **three** different `Pokemon`, each with a different name and base experience. At least one should be favorited and at least one should not be favorited. 
       * Use the `toString` method to print the information about each object.
-2. **Part 2 (10 points)**: Create a class `AppleOrange`. The class will contain only a main method that will implement the following logic as efficiently as possible:
+2. **Part 2 (20 points)**: Create a class `AppleOrange`. The class will contain only a main method that will implement the following logic as efficiently as possible:
   - Prompt the user for a number between 1 and 100.
   - If the number is divisible by 3 print *apple*.
   - If the number is divisible by 7 print *orange*.
   - If the number is divisible by 3 and 7 print *appleorange*.
   - If the number is out of range print *banana*.
   - In all other cases simply print the number.
+3. **Part 3 (15 points)**: Create a class `CooksHelper` that will convert tablespoons to cups. The class will contain only a main method that will implement the following logic:
+  - Prompt the user for the number of tablespoons.
+  - Convert tablespoons to cups.
+      * One cup is equal to 16 tablespoons.
+  - Sample output will look as follows:
+
+		```
+		Enter number of Tablespoons: 
+		18
+		18 tablespoons is equal to 1.125 cups.
+		``` 
+
+		```
+		Enter number of Tablespoons: 
+		4
+		4 tablespoons is equal to 0.25 cups.
+		```
+ 
+<!--
 3. **Part 3 (15 points)**: Create a class `RockPaperScissors`. The class will contain only the main method that will implement the rock-paper-scissors game where the user plays against the computer. The logic is as follows:
   - The computer chooses a random number between 1 and 3. 1 represents rock, 2 represents paper, 3 represents scissors.
   - The computer prompts the user for a number 1 to 3.
@@ -66,28 +85,12 @@ The goal of this assignment is to practice implementing programs that use the fo
 	1
 	It's a tie!
 	```
-4. **Part 4 (10 points)**: Create a class `CooksHelper` that will convert tablespoons to cups. The class will contain only a main method that will implement the following logic:
-  - Prompt the user for the number of tablespoons.
-  - Convert tablespoons to cups.
-      * One cup is equal to 16 tablespoons.
-  - Sample output will look as follows:
-
-		```
-		Enter number of Tablespoons: 
-		18
-		18 tablespoons is equal to 1.125 cups.
-		``` 
-
-		```
-		Enter number of Tablespoons: 
-		4
-		4 tablespoons is equal to 0.25 cups.
-		```
+--> 
  
  
 ### Submission Requirements
 
-1. For this assignment, you will submit the following files: `Pokemon.java`, `PokemonDriver.java`, `AppleOrange.java`, `RockPaperScissors.java`, and `CooksHelper.java`.
+1. For this assignment, you will submit the following files: `Pokemon.java`, `PokemonDriver.java`, `AppleOrange.java`, and `CooksHelper.java`.
 
 2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-F16/notes/blob/master/style.md).
 
