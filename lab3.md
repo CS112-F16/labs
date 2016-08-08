@@ -106,20 +106,20 @@ The goals of this assignment are to implement several programs that use the foll
    ```
    The output of your program will be as follows:
     
-	```
-	lab3 srollins$ java Sorter
-	Alphabetical A-Z:
-	Computer
-	I
-	Love
-	Science
+   ```
+   lab3 srollins$ java Sorter
+   Alphabetical A-Z:
+   Computer
+   I
+   Love
+   Science
 	   
-	Alphabetical Z-A:
-	Science
-	Love
-	I
-	Computer
-	```
+   Alphabetical Z-A:
+   Science
+   Love
+   I
+   Computer
+   ```
 
 
 <!--
