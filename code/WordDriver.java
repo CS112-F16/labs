@@ -30,7 +30,6 @@ public class WordDriver {
 		toMatch = "ample";
 		System.out.println("\tMatching characters in \'" + toMatch + "\': " + word.matchingChars(toMatch));		
 
-		System.out.println("\tIs " + wordStr + " a palindrome?: " + word.isPalindrome());		
 	}
 
 	/**
