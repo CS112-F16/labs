@@ -11,7 +11,7 @@ The goals of this assignment are to implement several programs that use the foll
 - The `ArrayList` class
 
 ##Requirements
-1. **Part 1 (15 points):** Create a class `RockPaperScissors`. The class will contain only the main method that will implement the rock-paper-scissors game where the user plays against the computer. The logic is as follows:
+1. **Part 1 (20 points):** Create a class `RockPaperScissors`. The class will contain only the main method that will implement the rock-paper-scissors game where the user plays against the computer. The logic is as follows:
   - The computer chooses a random number between 1 and 3. 1 represents rock, 2 represents paper, 3 represents scissors.
   - The computer prompts the user for a number 1 to 3.
   - The computer prints the winner based on the following:
@@ -86,17 +86,41 @@ The goals of this assignment are to implement several programs that use the foll
 		Matching characters in 'spin': 0
 		Matching characters in 'ample': 0
    ```
-3. **Part 3 (10 points):** Implement a program that provides search-and-replace functionality. Create a class `SearchAndReplace`. The logic of your program will be as follows:
-  - Prompt the user for a one-word search term and save the response in a variable.
-  - Prompt the user for a one-word replace term and save the response in a variable.
-  - Prompt the user for a file name and save the response in a variable.
-  - Open the input file with the name specified by the user.
-  - Open a second, new file called `output.txt`.
-  - For each line of the input file:
-      * Read in the line.
-      * Replace all instances of the search term with the replace term.
-      * Write the line to the output file.
-4. **Part 4 (10 points):** 
+3. **Part 3 (15 points):** Implement a program that reads the contents of a text file, stores each word in an `ArrayList`, sorts the list, then prints the contents in order smallest to largest *and* largest to smallest.
+  - Create a class `Sorter.java` with only a `main` method.
+  - The logic of the main method will be as follows:
+      * Create a new `ArrayList` of `String` to store the words in the file.
+      * Open a file called `words.txt`. You *must* use this filename.
+      * Read in the file a line at a time. Assume that each line contains one word.
+      * Store each line in the `ArrayList`.
+      * Sort the list. You may use the following to sort the list: `Collections.sort(words);`. This assumes that `words` is the name of your `ArrayList` variable. You will also need to `import java.util.Collections;`.
+      * Print the contents of the list, one word on each line, in order from smallest to largest.
+      * Print the contents of the list, one word on each line, in order from largest to smallest.
+  - Given the following file `words.txt`:
+  
+	```
+   I
+   Love
+   Computer
+   Science
+   ```
+   The output of your program will be as follows:
+    
+   ```
+   lab3 srollins$ java Sorter
+   Alphabetical A-Z:
+   Computer
+   I
+   Love
+   Science
+   
+   Alphabetical Z-A:
+   Science
+	Love
+	I
+	Computer
+	```
+
 
 <!--
   3. **Part 3 (15 points)**: Create a class `RockPaperScissors`. The class will contain only the main method that will implement the rock-paper-scissors game where the user plays against the computer. The logic is as follows:
@@ -136,7 +160,7 @@ The goals of this assignment are to implement several programs that use the foll
 
 ### Submission Requirements
 
-1. For this assignment, you will submit NNN files: `RockPaperScissors.java`, `Word.java`, 
+1. For this assignment, you will submit the following files: `RockPaperScissors.java`, `Word.java`, `Sorter.java`. 
 
 2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-F16/notes/blob/master/style.md).
 
