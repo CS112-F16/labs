@@ -122,43 +122,6 @@ The goals of this assignment are to implement several programs that use the foll
      Computer
      ```
 
-
-<!--
-  3. **Part 3 (15 points)**: Create a class `RockPaperScissors`. The class will contain only the main method that will implement the rock-paper-scissors game where the user plays against the computer. The logic is as follows:
-  - The computer chooses a random number between 1 and 3. 1 represents rock, 2 represents paper, 3 represents scissors.
-  - The computer prompts the user for a number 1 to 3.
-  - The computer prints the winner based on the following:
-      * Rock (1) beats scissors (3).
-      * Paper (2) beats rock (1).
-      * Scissors (3) beat paper (2).
-  - If the user chooses a number other than 1, 2, or 3, print an error and indicate the game is over.
-  - The following will generate a random number in Java. See [Randomize.java](https://github.com/CS112-F16/code/blob/master/LabExamples/Randomize.java) for a complete example.
-      * At the top of the class `import java.util.Random;`
-      * In the main method, instantiate an object of type `Random`: `Random r = new Random();`
-      * Invoke the `nextInt` method: `int computerChoice = r.nextInt(3) + 1;` Note that `nextInt` generates a number between 0 (inclusive) and the parameter (exclusive). In this case, it will generate a number from 0 to 2. By adding 1 we will get a number between 1 and 3.
-  - Sample output of your program should look as follows:
-  
-	```
-  	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
-	4
-	Invalid choice! Game over.
-	```
-	or
-	
-	```
-	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
-	1
-	Player chooses Rock. Computer chooses Scissors.
- 	```
- 	or
- 	
- 	```
- 	Enter 1 (Rock), 2 (Paper), or 3 (Scissors):
-	1
-	It's a tie!
-	```
--->
-
 ### Submission Requirements
 
 1. For this assignment, you will submit the following files: `RockPaperScissors.java`, `Word.java`, `Sorter.java`. 
