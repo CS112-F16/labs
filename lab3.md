@@ -104,7 +104,6 @@ The goals of this assignment are to implement several programs that use the foll
      Computer
      Science
      ```
-   
      The output of your program will be as follows:
    
      ```
