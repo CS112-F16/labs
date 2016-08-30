@@ -19,12 +19,12 @@ The goal of this assignment is to practice implementing programs that use the fo
           * `experience` - an `int` denoting the pokemon's base experience points, e.g., 137
           * `favorite` - a `boolean` denoting whether the pokemon has been starred as a favorite
       * Implement two constructors:
-          * A constructor that takes as input `name`, `experience`, and `favorite`.
-          * A constructor that takes as input `name` and `experience` and sets `favorite` to be a default value.
+          * A constructor that takes as input `species`, `experience`, and `favorite`.
+          * A constructor that takes as input `species` and `experience` and sets `favorite` to be a default value.
       * Implement get and set methods for every data member. 
       * Implement a `toString` method that prints a nicely formatted string describing the pokemon, e.g., "Zubat with Experience 137 - Starred" or "Oddish with Experience 220 - Not Starred".
   - Create a class `PokemonDriver`. 
-      * Instantiate **three** different `Pokemon`, each with a different name and base experience. At least one should be favorited and at least one should not be favorited. 
+      * Instantiate **three** different `Pokemon`, each with a different species and base experience. At least one should be favorited and at least one should not be favorited. 
       * Use the `toString` method to print the information about each object.
 2. **Part 2 (20 points)**: Create a class `AppleOrange`. The class will contain only a main method that will implement the following logic as efficiently as possible:
   - Prompt the user for a number between 1 and 100.
