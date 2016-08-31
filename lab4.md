@@ -6,7 +6,7 @@ Lab 4
 The goal of this assignment is to implement a program using arrays.
 
 ##Requirements
-1. **Part 1 (50 points):** For this question, you will implement your own version of `ArrayList`.  Your class, called `StringList`, will maintain an array of `String` objects and provide most of the functionality of the `ArrayList`. Download the following two java files: [StringList.java](code/StringList.java) and [StringListTester.java](code/StringListTester.java). [StringList.java](code/StringList.java) provide the skeleton for the code you must implement. Complete all methods as described in the documentation. For full credit, your submission must pass all of the tests in the class [StringListTester.java](code/StringListTester.java).
+1. **Part 1 (50 points):** For this question, you will implement your own version of `ArrayList`.  Your class, called `StringList`, will maintain an array of `String` objects and provide most of the functionality of the `ArrayList`. Download the following two java files: [StringList.java](code/StringList.java) and [StringListTester.java](code/StringListTester.java). [StringList.java](code/StringList.java) provides the skeleton for the code you must implement. Complete all methods as described in the documentation. For full credit, your submission must pass all of the tests in the class [StringListTester.java](code/StringListTester.java).
 
 ### Submission Requirements
 
