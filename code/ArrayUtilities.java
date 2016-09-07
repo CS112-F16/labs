@@ -1,7 +1,7 @@
 /**
 	A class with utility methods for manipulating one and two dimensional
 	arrays of characters.
-	**/
+**/
 	public class ArrayUtilities {
 
 	/**
@@ -12,7 +12,7 @@
 		Example input: ['a', 'b', 'c', 'd']
 		Example output: ['d', 'c', 'b', 'a']
 
-		**/
+	**/
 		public static char[] reverse(char[] original) {
 
 			//REPLACE WITH YOUR CODE
@@ -32,7 +32,7 @@
 		 ['i', 'h', 'g']]
 		 Example output:
 		 ['a', 'b', 'c', 'e', 'd', 'f', 'i', 'h', 'g']
-		 **/
+	 **/
 		 public static char[] to1D(char[][] original) {
 
 			//REPLACE WITH YOUR CODE
@@ -53,7 +53,7 @@
 		 ['d', 'c', 'b']]
 		Example output:
 		['c', 'b', 'a', 'b']
-		**/
+	**/
 		public static char[] smallestPerRow(char[][] original) {
 
 			//REPLACE WITH YOUR CODE
