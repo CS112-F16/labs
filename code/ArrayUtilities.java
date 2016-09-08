@@ -41,7 +41,7 @@ public class ArrayUtilities {
 	/**
 		Finds the char with the smallest value in each row
 		of the original and returns an array containing the 
-		values found. the result at position [0] will be the
+		values found. The result at position [0] will be the
 		smallest valued char in row 0 of original.
 		This method does NOT assume that all subarrays of the
 		original are of the same length.
