@@ -1,10 +1,10 @@
 /**
 	A class with utility methods for manipulating one and two dimensional
 	arrays of characters.
-**/
+	**/
 	public class ArrayUtilities {
 
-	/**
+		/**
 		Reverses the characters in the array original in place.
 		No new arrays may be created.
 		Returns the reference to the array original with
@@ -12,7 +12,7 @@
 		Example input: ['a', 'b', 'c', 'd']
 		Example output: ['d', 'c', 'b', 'a']
 
-	**/
+		**/
 		public static char[] reverse(char[] original) {
 
 			//REPLACE WITH YOUR CODE
@@ -20,7 +20,7 @@
 		}
 
 
-	/**
+		/**
 		Converts a two dimensional array of char to a one 
 		dimensional array of char. This method may assume
 		that all subarrays of the original are of the same
@@ -33,13 +33,13 @@
 		 Example output:
 		 ['a', 'b', 'c', 'e', 'd', 'f', 'i', 'h', 'g']
 	 **/
-		 public static char[] to1D(char[][] original) {
+		public static char[] to1D(char[][] original) {
 
 			//REPLACE WITH YOUR CODE
 			return null;
-		 }
+		}
 
-	/**
+		/**
 		Finds the char with the smallest value in each row
 		of the original and returns an array containing the 
 		values found. the result at position [0] will be the
@@ -53,7 +53,7 @@
 		 ['d', 'c', 'b']]
 		Example output:
 		['c', 'b', 'a', 'b']
-	**/
+		**/
 		public static char[] smallestPerRow(char[][] original) {
 
 			//REPLACE WITH YOUR CODE
