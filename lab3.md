@@ -18,7 +18,6 @@ The goals of this assignment are to implement several programs that use the foll
       * Rock (1) beats scissors (3).
       * Paper (2) beats rock (1).
       * Scissors (3) beat paper (2).
-  - If the user chooses a number other than 1, 2, or 3, print an error and indicate the game is over.
   - The following will generate a random number in Java. See [Randomize.java](https://github.com/CS112-F16/code/blob/master/LabExamples/Randomize.java) for a complete example.
       * At the top of the class `import java.util.Random;`
       * In the main method, instantiate an object of type `Random`: `Random r = new Random();`
