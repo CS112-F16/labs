@@ -1,7 +1,7 @@
 Lab 5
 =====
 
-### Due Monday, October 3, 2016 - 5:00pm
+### Due Friday, October 7, 2016 - 5:00pm
 
 The goal of this assignment is to implement a program using arrays.
 

@@ -1,7 +1,7 @@
 Lab 4
 =====
 
-### Due Monday, September 26, 2016 - 5:00pm
+### Due Friday, September 30, 2016 - 5:00pm
 
 The goal of this assignment is to implement a program using arrays.
 
