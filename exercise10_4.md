@@ -23,7 +23,7 @@ Complete all methods as described in the documentation of [ImageManipulator.java
 
 You **should not** modify any of the code in the other three classes.
 
-For full credit, your submission must pass all of the tests in the class [ImageTester.java](exercise10_4/ImageTester.java) by producing images that look as follows:
+For full credit, your submission must pass all of the tests in the class [ImageTester.java](exercise10_4/ImageTester.java). Make sure to download the original image and store in a file called "original.jpg" in the directory where you will run your program. The resulting images must look as follows:
 
 #### Original
 <img src="exercise10_4/examples/original.jpg" width="300"/>
