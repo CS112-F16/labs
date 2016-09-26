@@ -8,12 +8,16 @@ This assignment will be a graded in-class exercise. You are required to submit y
 ##Requirements
 For this assignment, you will implement several methods that manipulate jpg images. 
 
+You should make sure to get lots of help with this exercise on 10/4 during class as Project 2 will be very similar!
+
 Download the following java files: 
 
 - [ImageManipulator.java](exercise10_4/ImageManipulator.java)
 - [ImageTester.java](exercise10_4/ImageTester.java)
 - [Picture.java](exercise10_4/Picture.java)
 - [Pixel.java](exercise10_4/Pixel.java)
+
+This assignment is a modified version of one given by Richard Wicentowski and Tia Newhall (2005) at Swarthmore College. Credit (and thanks!) go to them for the inspiration and starter code.
 
 Complete all methods as described in the documentation of [ImageManipulator.java](exercise10_4/ImageManipulator.java). 
 

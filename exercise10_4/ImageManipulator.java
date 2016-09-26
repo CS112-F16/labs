@@ -30,6 +30,20 @@ public class ImageManipulator {
 	**/
 	public void lighten(String inputfile, String outputfile, double amount) {
 		
+	    /*
+	      Hint: if you multiply an integer by a floating point number Java will
+	      automatically convert the result to a floating point number. For these
+	      exercises, you will need to convert that result back into an integer
+	      (as the RGB values for the pixel must be whole numbers). To do this, 
+	      you may using casting to convert a double to an int by truncating.
+	      Example below:
+	      
+	      int original = 5;
+	      double resultDouble = 5 * .55;
+	      int resultInt = (int)resultDouble;
+
+	    */
+
 	}
 
 	/**
