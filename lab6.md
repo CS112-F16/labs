@@ -11,10 +11,10 @@ The goal of this assignment is to implement programs using interfaces and inheri
  - Implement a class `PlayingCardDriver`. The class will contain a `main` method that will: (1) create an `ArrayList` of at least five `PlayingCard` objects; (2) use `Collections.sort` to sort the cards; and (3) print the result to standard output.
 
 2. **Part 2 (25 points):** 
-- Implement an *abstract base* class `Publication`. `Publication` has at least two properties: `title` and`numOfPages`. A `Publication` is `Comparable` and two `Publication` objects are compared by comparing their `numOfPages` properties.
-- Implement a derived class `Book`. A `Book` has a `boolean` property to indicate whether it is a hard or soft cover book. It also implements a `toString` method that returns a `String` containing all of its properties.
-- Implement a derived class `Magazine`. A `Magazine` has a property to indicate the number of subscribers. It also implements a `toString` method that returns a `String` containing all of its properties.
-- Implement a class `LibraryDriver`. The class will contain a `main` method that will: (1) create an `ArrayList` of at least five `Publication` objects, some `Book` and some `Magazine`; (2) use `Collections.sort` to sort the publications; and (3) print the result to standard output.
+ - Implement an *abstract base* class `Publication`. `Publication` has at least two properties: `title` and`numOfPages`. A `Publication` is `Comparable` and two `Publication` objects are compared by comparing their `numOfPages` properties.
+ - Implement a derived class `Book`. A `Book` has a `boolean` property to indicate whether it is a hard or soft cover book. It also implements a `toString` method that returns a `String` containing all of its properties.
+ - Implement a derived class `Magazine`. A `Magazine` has a property to indicate the number of subscribers. It also implements a `toString` method that returns a `String` containing all of its properties.
+ - Implement a class `LibraryDriver`. The class will contain a `main` method that will: (1) create an `ArrayList` of at least five `Publication` objects, some `Book` and some `Magazine`; (2) use `Collections.sort` to sort the publications; and (3) print the result to standard output.
 
 
 ### Submission Requirements
