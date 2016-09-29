@@ -39,6 +39,8 @@ public class StringList {
 		it will be resized by creating new array of 
 		twice the size and copying all elements to the
 		new array.
+		Will throw an IndexOutOfBoundsException if the
+		index is out of range.
 	**/
 	public void add(int index, String s) {
 		// REPLACE WITH YOUR CODE
