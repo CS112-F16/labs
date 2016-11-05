@@ -39,7 +39,7 @@ The goal of this assignment is to implement programs using recursion and the `Ha
 
 ### Submission Requirements
 
-1. For this assignment, you will submit the following files: `PalindromeTester .java`, `FileFinder.java`, and `NumberPrinter`. 
+1. For this assignment, you will submit the following files: `PalindromeTester.java`, `FileFinder.java`, and `NumberPrinter.java`. 
 
 2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-F16/notes/blob/master/style.md).
 
