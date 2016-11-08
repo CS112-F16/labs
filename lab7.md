@@ -10,7 +10,7 @@ The goal of this assignment is to implement programs using recursion and the `Ha
   - Implement a class `PalindromeTester`. It will be run as follows: `java PalindromeTester <word>`, for example `java PalindromeTester racecar`. 
  - The `main` method will print the word and whether it is or is not a palindrome, for example, `racecar is a palindrome` or `computer is not a palindrome`.
  - The class must have a *recursive* method `public static boolean isPalindrome(String word)`. The method takes as input a word and returns `true` if it is a palindrome and `false` otherwise. The method will be called from `main` and may not use any loops.
- - The method will print *an appropriate* usage message and exit if the parameter is not provided.
+ - The `main` method will print *an appropriate* usage message and exit if the parameter is not provided.
 
 2. **Part 2 (20 points):** 
  - Implement a class `FileFinder`. It will be run as follows: `java FileFinder <absolute_path>`, for example `java FileFinder /Users/srollins/teaching/cs112`.
