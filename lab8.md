@@ -3,7 +3,7 @@ Lab 8
 
 ### Due Wednesday, November 30, 2016 - 5:00pm
 
-*This lab is optional. If you do not submit this lab your final score for Lab assignments will be the sum of the seven labs completed so far. If you do complete this assignment then your score for all eight labs will count and be weighted equally. This is an opportunity for you to raise your lab score.*
+*This lab is optional. If you do not submit this lab your final score for Lab assignments will be the sum of the seven labs completed so far. If you do complete this assignment then your score for all eight labs will count and be weighted equally. This is an opportunity for you to raise your lab score, but keep in mind that if you submit this lab whatever score you earn will be counted.*
 
 The goal of this assignment is to implement several methods for a `LinkedList` class.
 
