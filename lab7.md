@@ -5,7 +5,7 @@ Lab 7
 
 The goal of this assignment is to implement programs using recursion and the `HashMap` class.
 
-##Requirements
+## Requirements
 1. **Part 1 (15 points):** 
   - Implement a class `PalindromeTester`. It will be run as follows: `java PalindromeTester <word>`, for example `java PalindromeTester racecar`. 
  - The `main` method will print the word and whether it is or is not a palindrome, for example, `racecar is a palindrome` or `computer is not a palindrome`.
