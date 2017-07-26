@@ -10,7 +10,7 @@ The goals of this assignment are the following:
 - Implement your first Java program!
 
 
-##Requirements
+## Requirements
 1. **Part 1 (5 points)**: Prepare your development environment.
   1. Activate your account on [Piazza](https://piazza.com/usfca/fall2016/cs112/home). 
   2. Download the [Java Development Platform](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Note that this is **not** just the Java Runtime Environment (JRE).
